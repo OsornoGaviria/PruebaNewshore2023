@@ -7,7 +7,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule} from '@angular/material/icon'
-
+import { MatDialogModule } from '@angular/material/dialog'
 
 @NgModule({
   declarations: [],
@@ -19,11 +19,13 @@ import { MatIconModule} from '@angular/material/icon'
     MatAutocompleteModule,
     MatGridListModule,
     MatListModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatDialogModule
   ],
   exports:[
     MatCardModule,
     MatGridListModule,
+    MatDialogModule,
     MatListModule,
     MatToolbarModule,
     MatAutocompleteModule,
